@@ -28,6 +28,8 @@ public class LinkedListDemo {
         System.out.print(playlist.getFirst());
 //        print list
         System.out.print(playlist);
+        
+        
     }
 
 }
