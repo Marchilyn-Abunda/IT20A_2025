@@ -17,23 +17,18 @@ public class PerformanceTest {
         for (int i = 0; i < n; i++) {
             arraylist.add(i);
         }
-
         long end = System.nanoTime();
-
         System.out.println("Arraylist Performance Time: " + (end - start) + " ns");
 
 //        LinkedList 
         LinkedList<Integer> linkedlist = new LinkedList<>();
-
         start = System.nanoTime();
 
 //        Adding Data
         for (int i = 0; i < n; i++) {
             linkedlist.add(i);
         }
-
         end = System.nanoTime();
-
         System.out.println("LinkedList Performance Time: " + (end - start) + " ns");
         
         //    Stack
@@ -44,12 +39,8 @@ public class PerformanceTest {
         for (int i = 0; i < n; i++) {
             stack.add(i);
         }
-
         end = System.nanoTime();
-
         System.out.println("Stack Performance Time: " + (end - start) + " ns");
     
     }
-
-
 }
